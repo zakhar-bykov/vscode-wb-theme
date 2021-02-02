@@ -1,0 +1,25 @@
+{
+    "name": "vscode-wb-theme",
+    "displayName": "White & Black",
+    "description": "Only white and black colors",
+    "version": "0.0.1",
+    "repository": {
+        "url": "https://github.com/zakhar-bykov/vscode-wb-theme.git"
+    },
+    "publisher": "zakhar-bykov",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "White & Black",
+                "uiTheme": "vs-dark",
+                "path": "./themes/White & Black-color-theme.json"
+            }
+        ]
+    }
+}
